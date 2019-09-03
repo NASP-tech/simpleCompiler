@@ -15,7 +15,7 @@ static void Gen_codigo_expresion(Expresion *expr) {
         case '+':
           printf("ADD\n");
           break;
-        case '-':
+        case '*':
           printf("MULT\n");
           break;
       }
